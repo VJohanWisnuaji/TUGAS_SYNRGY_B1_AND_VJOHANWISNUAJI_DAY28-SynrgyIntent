@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bundle"
+        android:icon="@drawable/ic_bundle"
+        android:title="Bunlde" />
+    <item
+        android:id="@+id/serializable"
+        android:icon="@drawable/ic_serializable"
+        android:title="Serializable" />
+    <item
+        android:id="@+id/parcelable"
+        android:icon="@drawable/ic_parcelable"
+        android:title="Parcelable" />
+    <item
+        android:id="@+id/implicit_dial"
+        android:icon="@drawable/ic_dial"
+        android:title="Implicit Intent Dial" />
+    <item
+        android:id="@+id/implicit_wa"
+        android:icon="@drawable/ic_whatsapp"
+        android:title="Implicit Intent WhatsApss Send Message" />
+
+</menu>

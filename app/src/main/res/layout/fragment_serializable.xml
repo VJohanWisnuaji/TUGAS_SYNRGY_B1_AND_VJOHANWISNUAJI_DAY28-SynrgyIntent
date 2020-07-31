@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSerializable">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Serializable"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_serializable_nama"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:background="#FFFFFF"
+        android:hint="Input Nama"
+        android:inputType="text"
+        android:outlineSpotShadowColor="#000000"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_serializable_umur"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:hint="Input Umur"
+        android:inputType="text"
+        android:outlineSpotShadowColor="#000000"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_serializable_nama" />
+
+    <Button
+        android:id="@+id/btn_serializable"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_next"
+        android:elevation="8dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_serializable_umur" />
+</androidx.constraintlayout.widget.ConstraintLayout>
